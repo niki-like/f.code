@@ -1,0 +1,70 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+$generalColor: rgb(2, 0, 27);
+$accentColor: rgb(255, 188, 53);
+body::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: $generalColor;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255);    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 3px solid rgb(255, 255, 255);  /* padding вокруг плашки */
+  }
+
+
+
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // background-color: $generalColor;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    a{
+        color: $generalColor;
+        font-size: 1.3em;
+    }
+    .activa-link{
+        color: $accentColor;
+    }
+}
+
+main{
+
+    width: 100%;
+    
+
+}
+
+
+
+footer{
+    height: 20vh;
+    width: 100%;
+    background-color: $generalColor;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.2em;
+        line-height: 1.4em;
+    }
+    
+}
