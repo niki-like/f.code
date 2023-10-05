@@ -1,5 +1,6 @@
 import React from "react";
 import './title.scss';
+import Slider from "./slider"
 
 class Title extends React.Component {
     render() {
@@ -21,6 +22,7 @@ class Title extends React.Component {
                         Еще жив стереотип, что такой отдых предполагает спартанские условия и отсутствие удобств. Но в современных кемпингах вы можете отключиться от городской суеты и ощутить единение с природой в условиях почти домашнего комфорта.
                     </p>
                 </div>
+                <Slider/>
             </>
         )
     }

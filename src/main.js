@@ -11,9 +11,9 @@ class Main extends React.Component {
                     <Outlet/>
                 </main>
                 <header>
-                    <NavLink className={({isActive})=> isActive ? "activa-link" : ""} to="/">Главная</NavLink>
-                    <NavLink className={({isActive})=> isActive ? "activa-link" : ""} to="/rule">Правила пользования</NavLink>
-                    <NavLink className={({isActive})=> isActive ? "activa-link" : ""} to="/prise">Цены</NavLink> 
+                    <NavLink  className={({isActive})=> isActive ? "activa-link" : ""} to="/">Главная</NavLink>
+                    <NavLink  className={({isActive})=> isActive ? "activa-link" : ""} to="/rule">Правила пользования</NavLink>
+                    <NavLink  className={({isActive})=> isActive ? "activa-link" : ""} to="/prise">Цены</NavLink> 
                 </header>
                 <footer>
                     <ul>
